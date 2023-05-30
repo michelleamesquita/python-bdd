@@ -1,0 +1,58 @@
+[
+  {
+    "description": "  Eu quero validar se a funcao de temperatura funciona",
+    "keyword": "Feature",
+    "name": "Calculo de temperatura",
+    "line": 1,
+    "id": "calculo-de-temperatura",
+    "tags": [],
+    "uri": "Temp.feature",
+    "elements": [
+      {
+        "id": "calculo-de-temperatura;abrir-pagina-de-temperatura",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Abrir pagina de temperatura",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "eu abro a pagina de temperatura",
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "clico na funcao celsius temperatura \"37\"",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "a funcao de Fahrenheit converte para \"98.6\"",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
